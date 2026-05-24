@@ -10,10 +10,10 @@ The DHT11 sensor begins operation.
 1. The program continuously reads temperature and humidity values.
 2. If the sensor fails to provide valid readings, an error message appears on the LCD, and the buzzer starts beeping continuously.
 3. If readings are valid, the buzzer stops, and the LCD updates with:
-i. Temperature in Celsius and Fahrenheit
-ii. Humidity percentage
-iii. Weather status (HOT, MILD, AMBT, COLD, NORM)
-iv. The display updates every 2 seconds.
+1. Temperature in Celsius and Fahrenheit
+2. Humidity percentage
+3. Weather status (HOT, MILD, AMBT, COLD, NORM)
+4. The display updates every 2 seconds.
 
 ### Weather Classification Logic:
 Based on temperature and humidity levels, the system categorizes the environment into different weather statuses.
